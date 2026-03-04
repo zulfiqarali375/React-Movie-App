@@ -13,7 +13,7 @@ const MovieCard = ({ movie }) => {
         <img
           src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
           alt={movie.title}
-          className="w-full h-[350px] object-cover"
+          className="w-full object-cover"
         />
 
         {/* Overlay */}
